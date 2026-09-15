@@ -1,0 +1,40 @@
+2026-08-12T20:26:02.393+05:30  INFO 6911 --- [employee-management] [restartedMain] c.e.EmployeeManagementApplication        : Starting EmployeeManagementApplication using Java 21.0.7 with PID 6911 (/Users/adityakulkarni/PersonalWork/Practice/Project/EmployeeHub/employee-management/target/classes started by adityakulkarni in /Users/adityakulkarni/PersonalWork/Practice/Project/EmployeeHub/employee-management)
+2026-08-12T20:26:02.396+05:30  INFO 6911 --- [employee-management] [restartedMain] c.e.EmployeeManagementApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-08-12T20:26:02.412+05:30  INFO 6911 --- [employee-management] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-12T20:26:02.412+05:30  INFO 6911 --- [employee-management] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-12T20:26:02.642+05:30  INFO 6911 --- [employee-management] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-12T20:26:02.657+05:30  INFO 6911 --- [employee-management] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2026-08-12T20:26:02.797+05:30  INFO 6911 --- [employee-management] [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat initialized with port 8081 (http)
+2026-08-12T20:26:02.804+05:30  INFO 6911 --- [employee-management] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2026-08-12T20:26:02.804+05:30  INFO 6911 --- [employee-management] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-12T20:26:02.819+05:30  INFO 6911 --- [employee-management] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 407 ms
+2026-08-12T20:26:02.883+05:30  INFO 6911 --- [employee-management] [restartedMain] o.h.o.jpa                                : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-12T20:26:02.900+05:30  INFO 6911 --- [employee-management] [restartedMain] o.h.o.core                               : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-08-12T20:26:03.018+05:30  INFO 6911 --- [employee-management] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-12T20:26:03.028+05:30  INFO 6911 --- [employee-management] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2026-08-12T20:26:03.054+05:30  INFO 6911 --- [employee-management] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@1903c86c
+2026-08-12T20:26:03.055+05:30  INFO 6911 --- [employee-management] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2026-08-12T20:26:03.072+05:30  INFO 6911 --- [employee-management] [restartedMain] o.h.o.c.pooling                          : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mariadb://localhost/employee-management?user=refill&password=***]
+	Database driver: MariaDB Connector/J
+	Database dialect: MariaDBDialect
+	Database version: 11.8.4
+	Default catalog/schema: employee-management/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-12T20:26:03.333+05:30  INFO 6911 --- [employee-management] [restartedMain] o.h.o.core                               : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-12T20:26:03.350+05:30  INFO 6911 --- [employee-management] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-12T20:26:03.373+05:30  INFO 6911 --- [employee-management] [restartedMain] o.s.d.j.r.q.QueryEnhancerFactories       : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-12T20:26:03.428+05:30  WARN 6911 --- [employee-management] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-12T20:26:03.439+05:30  INFO 6911 --- [employee-management] [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-08-12T20:26:03.648+05:30  INFO 6911 --- [employee-management] [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat started on port 8081 (http) with context path '/'
+2026-08-12T20:26:03.651+05:30  INFO 6911 --- [employee-management] [restartedMain] c.e.EmployeeManagementApplication        : Started EmployeeManagementApplication in 1.425 seconds (process running for 1.664)
+2026-08-12T20:27:13.910+05:30  INFO 6911 --- [employee-management] [SpringApplicationShutdownHook] o.s.b.t.GracefulShutdown                 : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-12T20:27:13.915+05:30  INFO 6911 --- [employee-management] [tomcat-shutdown] o.s.b.t.GracefulShutdown                 : Graceful shutdown complete
+2026-08-12T20:27:13.919+05:30  INFO 6911 --- [employee-management] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-12T20:27:13.922+05:30  INFO 6911 --- [employee-management] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2026-08-12T20:27:13.925+05:30  INFO 6911 --- [employee-management] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
